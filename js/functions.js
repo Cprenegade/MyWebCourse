@@ -15,4 +15,6 @@ function convertToC(temp){
 displayName('Chuck');
 
 convertToF(23);
+console.log('Pause...........');
+setTimeout(function() {console.log('Resume now')},5000);
 convertToC(73.4);
