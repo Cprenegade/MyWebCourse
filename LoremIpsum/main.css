@@ -1,0 +1,82 @@
+/* @import url('halloween.css'); */
+
+@media screen{
+
+body {
+    color: red;
+    font-size: 100%;
+}
+
+h1 { 
+    font-family: 'Courier New', Courier, monospace; 
+    font-size:2em; 
+}
+
+
+h2 {color: green; 
+    font-style:italic; 
+    font-size:1.5em; 
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+
+header h2 {
+    color: black;
+    /* font-size: 100%; */
+}
+
+#television p span {color: red}
+
+p {
+    color: blue;
+    font-size: 18px; 
+}
+
+p.two {
+    color: purple;
+    /* font-size: 100%; */
+}
+
+nav a:link {color: white; background-color: red}
+nav a:hover {color: red; background-color: white}
+
+footer a:link {color: royalblue; background-color: white}
+footer a:hover {color: yellowgreen; background-color: white}
+
+header {text-align: center;
+    
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bfd255+0,8eb92a+32,72aa00+100,9ecb2d+100 */
+background: #bfd255; /* Old browsers */
+background: -moz-linear-gradient(top,  #bfd255 0%, #8eb92a 32%, #72aa00 100%, #9ecb2d 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #bfd255 0%,#8eb92a 32%,#72aa00 100%,#9ecb2d 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #bfd255 0%,#8eb92a 32%,#72aa00 100%,#9ecb2d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=0 ); /* IE6-9 */
+}
+
+article { background-image: linear-gradient(to bottom, rgb(246, 201, 180) 0%, rgb(237, 137, 23) 100%); 
+    border-bottom: 5px solid black; padding:10px;}
+
+
+
+nav ul li {list-style: none; display: inline-block}
+nav a {text-decoration:none;
+    width: 8em; 
+    height: 1.25em;
+    padding: 5px;
+}
+
+footer {font-weight: bold}
+
+li {font-variant: small-caps}
+
+p.two{font: bold normal bold 15px/100% Arial}
+
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basics of HTML, CSS and JavaScript</title>
+    <style>div {
+        width: 365px;
+        padding: 10px;
+        border: 10px solid #FF5722;
+        background-color: #2196F3;
+        color: #FFEB3B;
+        text-align: center;
+    }</style>
+    
+    <script>function init() {
+        let me = {name: 'Chuck', email: 'cprenegade@yahoo.com'}
+        document.getElementById("name").innerHTML = me.name;
+        document.getElementById("email").innerHTML = me.email;
+        
+    }    
+        </script>
+
+</head>
+<body onload="init()">
+    <!-- <div id="name"></div> -->
+    <!-- <div id="email"></div> -->
+    <div id="name" style="
+    text-align: center;
+">Chuck</div> 
+<div id="email">cprenegade@yahoo.com</div>
+
+</body>
+</html>
